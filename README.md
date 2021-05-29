@@ -2,7 +2,9 @@
 
 `screenshot`
 ![resume] (resumess.PNG)
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+
+
+ [Firebase link](https://resume-angular-7c827.web.app/)
 
 ## Development server
 

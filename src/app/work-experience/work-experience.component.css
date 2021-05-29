@@ -1,0 +1,14 @@
+.text-soft{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.text-buffer{
+    font-size: 30px;
+    padding: 0px 30px;
+}
+
+.text-date{
+    font-size: 20px ;
+    color: grey;
+    padding: 0px 30px;
+}

@@ -1,0 +1,102 @@
+
+<h3 [ngStyle]="exp">{{work | uppercase }}</h3>
+
+<p [class]="buffer"> <span [class]="softClass">Software Engineer -</span> Bufferzero Solutions, Bengaluru</p>
+<p [class]="dateClass">Oct 2020- Till May 2021</p>
+<ol>
+    <li [ngStyle]="erosStyle"> Eros Now</li>
+        <ul [ngStyle]="eros_list_Style">
+            <li >Eros now is an indian subscription based OTT App,video
+                on-demand entertainment and media platform, launched in 2012.
+            </li>
+
+            <li >
+                Designed and developed Splash Screen, Purchase Page and Menu Bar.
+            </li>
+        </ul>
+    <li [ngStyle]="erosStyle">Sales-plus ( Client :Poorvika Mobiles )</li>
+        <ul [ngStyle]="eros_list_Style">
+            <li>
+                Acted as a core contributor in the process of converting
+                the code from .NET to React JS.
+
+            </li>
+
+        <li>
+            Designed and developed extensively on Report modules
+            and Ledger/account modules which handles Item Name,
+            Quantity, Basic rates, Tax%, Tax amount and Total Amount
+        </li>
+
+        <li>
+            Developed UI Reusable Components like Search Components,
+            Notification Components which can be used in other modules.
+        </li>
+            
+        <li>
+            Fetching data from json using Axios.
+
+        </li>
+        <li>
+            Implemented Js-pdf for generating the bills and receipts
+        </li>
+
+    </ul>
+</ol>
+
+<h3 [ngStyle]="exp"> {{project | uppercase }} </h3>
+
+<ol>
+    <li [ngStyle]="erosStyle">
+        {{recipie | titlecase }}
+    </li>
+        <ul [ngStyle]="eros_list_Style">
+            <li>
+                Developed a website where we can search a list of food items
+                on clicking the search button
+            </li>
+
+            <li>
+                Worked upon fetching the data from API using axios library
+            </li>
+
+        </ul>
+    <li [ngStyle]="erosStyle">{{resume | titlecase }}</li>
+        <ul [ngStyle]="eros_list_Style">
+            <li>
+                Build Reusable components for introduction , work experience , education and technical skills.
+            </li>
+
+            <li>
+                Used Interpolation for binding the data from class to template .
+            </li>
+
+            <li>Used Style binding and class binding for giving the style.</li>
+            <li>Used Pipe operator for transforming the data.</li>
+            <li>Used  Directive for  traversing the elements .</li>
+            <li>Used flex property to align the div tag.</li>
+            <li>Used font-awesome for icons .</li>
+
+        </ul>
+    <li [ngStyle]="erosStyle">{{phone | titlecase }}</li>
+        <ul [ngStyle]="eros_list_Style">
+            <li>
+                It contains contact details where we can edit , delete and
+                create new contacts.
+            </li>
+
+            <li>
+                Used Http Module and json server to mock up the data.
+            </li>
+
+            <li>
+                Used @input and @output decorator  for components interaction.
+            </li>
+
+        </ul>
+
+</ol>
+
+
+
+

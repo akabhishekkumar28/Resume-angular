@@ -1,0 +1,15 @@
+.text-clg{
+    font-weight: bold;
+    color: #000;
+    padding: 0px 30px;
+}
+.text-engg{
+    font-weight: 600;
+    color: #000;
+    font-style: italic;
+    padding: 15px 30px;
+}
+.text-sess{
+        color: grey;
+        padding: 0px 30px;
+}

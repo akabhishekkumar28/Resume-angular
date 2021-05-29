@@ -1,0 +1,64 @@
+
+.main{
+    display: flex;
+    /* background-color: rosybrown; */
+    width: 100vw;
+    /* height: 2200px; */
+   
+}
+.left{
+    width: 80vw;
+    /* height: 2200px; */
+    background-color: brown;
+}
+.right
+{
+    width: 20vw;
+    /* height: 2200px; */
+    background-color: rgb(31, 214, 199);
+}
+@media screen  and ( max-width :600px){
+    .left {
+        display: block;
+        background-color: salmon;
+    }
+    .right{
+        display: block;
+        /* background-color: green; */
+    }
+    
+}
+
+@media screen  and ( min-width :600px){
+    .left {
+        display: block;
+        /* background-color: rgb(248, 250, 114); */
+    }
+    .right{
+        display: block;
+        /* background-color: green; */
+    }
+    
+}
+@media screen  and ( min-width :768px){
+    .left {
+        display: block;
+        /* background-color: rgb(250, 114, 193); */
+    }
+    .right{
+        display: block;
+        /* background-color: green; */
+    }
+    
+}
+@media screen  and ( min-width :992px){
+    .left {
+        display: block;
+        /* background-color: rgb(248, 20, 20); */
+    }
+    .right{
+        display: block;
+        /* background-color: green; */
+    }
+    
+}

@@ -1,0 +1,44 @@
+<div class="profileImg">
+            
+</div>
+
+
+    <p > <i class="fa fa-github fa-lg px-3"></i>{{github}}</p>
+    
+    <p><i class="fa fa-linkedin fa-lg px-3"></i>{{linkdin}}</p>
+    
+    <p><i class="fa fa-phone-square fa-lg px-3"></i> {{phone}}</p>
+    
+    <p><i class="fa fa-envelope-square fa-lg px-3"></i>{{ email }}</p>
+ 
+<!-- <a href="" akabhishekkumar28@gmail.com></a> -->
+
+<h3 [ngStyle]="tech">{{ technical | uppercase }}</h3>
+
+<h4 [class]= 'osClass'>OS : <span [style.font-weight]="400" > {{ os | titlecase}}</span></h4>
+
+<h4 [class]= 'osClass'>{{ prog | titlecase }} : <span [style.font-weight]="400"> {{ lang | titlecase}}</span></h4>
+
+ 
+<h4 [ngClass]= 'frontClass'>Frontend :</h4>
+<h4 [class]= 'frontEndClass'>{{ frontend | uppercase }}</h4>
+
+<h4 [ngClass]= 'frontClass'> Libraries</h4>
+<h4 [class]= 'frontEndClass'>{{ lib | titlecase }}</h4>
+
+<h4 [ngClass]= 'frontClass'>{{ framework | uppercase }}</h4>
+<h4 [class]= 'frontEndClass'>{{ angular | titlecase }}</h4>
+
+<h4 [ngClass]= 'frontClass'>{{ db | uppercase }}</h4>
+<h4 [class]= 'frontEndClass'>{{ sql }}</h4>
+
+<h4 [ngClass]= 'frontClass'>{{ vc | titlecase }}</h4>
+<h4 [class]= 'frontEndClass'>{{ git | titlecase }}</h4>
+
+<h4 [ngClass]= 'frontClass'>{{ tools | titlecase }}</h4>
+<div *ngFor = 'let list of toolList'>
+    <li [class]= 'frontEndClass'>{{ list }}</li>
+</div>
+
+<h2 [ngStyle]="tech">{{ languages | uppercase }} :</h2>
+<h4 [class]= 'frontEndClass'> {{ eng | titlecase }}</h4>

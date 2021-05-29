@@ -1,7 +1,7 @@
 # ResumeAngular
 
 `screenshot`
-![resume] (resumess.PNG)
+![resume](resumess.PNG)
 
 
  [Firebase link](https://resume-angular-7c827.web.app/)
